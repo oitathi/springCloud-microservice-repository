@@ -4,6 +4,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/estudos
     username: postgres
   jpa:
+    show-sql: true
     hibernate:
       ddl-auto: update
       show-sql: true
